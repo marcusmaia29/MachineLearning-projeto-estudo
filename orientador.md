@@ -10,7 +10,7 @@
 ## Fluxo do projeto
 - [X] Carregar dataset
 - [X] head / shape / info
-- [ ] Dicionário das variáveis
+- [X] Dicionário das variáveis
 - [ ] Missing / duplicatas / inconsistências
 - [ ] Separar treino e teste
 - [ ] EDA univariada
@@ -31,5 +31,6 @@ Para cada etapa:
 
 Nunca concluir algo antes de mostrar a análise que sustenta.
 
-## Próximo passo
-Montar o dicionário das features.
+## Próximo passo:
+Investigar a qualidade dos dados: valores ausentes, duplicatas,
+cardinalidade e possíveis inconsistências.
