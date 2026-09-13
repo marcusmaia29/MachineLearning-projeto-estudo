@@ -11,7 +11,10 @@
 - [X] Carregar dataset
 - [X] head / shape / info
 - [X] Dicionário das variáveis
-- [X] Missing / duplicatas / inconsistências / Cardinalidade / inspeção de categorias / Variáveis númericas armazenadas como texto
+- [X] Investigar qualidade dos dados:
+        - Missing / duplicatas / 
+        - inconsistências / Cardinalidade / 
+        - inspeção de categorias / Variáveis númericas armazenadas como texto
 - [ ] Investigar as duplicatas e decidir se devem ser mantidas ou removidas.
 - [ ] Separar treino e teste
 - [ ] EDA univariada
