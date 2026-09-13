@@ -11,7 +11,8 @@
 - [X] Carregar dataset
 - [X] head / shape / info
 - [X] Dicionário das variáveis
-- [ ] Missing / duplicatas / inconsistências
+- [X] Missing / duplicatas / inconsistências / Cardinalidade / inspeção de categorias / Variáveis númericas armazenadas como texto
+- [ ] Investigar as duplicatas e decidir se devem ser mantidas ou removidas.
 - [ ] Separar treino e teste
 - [ ] EDA univariada
 - [ ] EDA bivariada/multivariada
@@ -32,4 +33,4 @@ Para cada etapa:
 Nunca concluir algo antes de mostrar a análise que sustenta.
 
 ## Próximo passo:
-Investigar melhor aquelas variáveis que o Pandas classificou como object, mas que conceitualmente representam valores numéricos (mileage, engine, max_power e torque).
+Duplicatas como próximo passo antes do train/test split, porque se concluirmos que são registros repetidos de fato, é melhor resolver isso antes da separação para não correr o risco de uma mesma observação aparecer tanto no treino quanto no teste.
