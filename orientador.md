@@ -32,5 +32,4 @@ Para cada etapa:
 Nunca concluir algo antes de mostrar a análise que sustenta.
 
 ## Próximo passo:
-Investigar a qualidade dos dados: valores ausentes, duplicatas,
-cardinalidade e possíveis inconsistências.
+Investigar melhor aquelas variáveis que o Pandas classificou como object, mas que conceitualmente representam valores numéricos (mileage, engine, max_power e torque).
